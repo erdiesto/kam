@@ -1,4 +1,118 @@
-<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>KAM</title>
-<style>body{font:16px/1.6 system-ui,-apple-system,sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;color:#1d2522;background:#f3f5f2}h1{font-size:1.6rem}h2{font-size:1.2rem;margin-top:2rem;color:#127c78}hr{margin:2.5rem 0;border:0;border-top:1px solid #ccd5d1}nav a{margin-right:1rem}@media (prefers-color-scheme:dark){body{background:#141a18;color:#e7ece9}h2{color:#4fc4bd}a{color:#7fd4ce}}</style></head><body>
-<nav><a href="gizlilik.html">Gizlilik / Privacy</a><a href="kosullar.html">Koşullar / Terms</a><a href="destek.html">Destek / Support</a></nav>
-<h1>KAM</h1><p>Yandan görünümlü 2D aksiyon RPG. Genç kam Tolun, kız kardeşi Ay Su'nun kutunu geri almak için yer altına iner.</p><p>A side-scrolling 2D action RPG. The young kam Tolun descends underground to bring back his sister Ay Su's kut.</p><p style="margin-top:3rem;color:#5d6a65">KAM © 2026 Erdi Koç. Tüm hakları saklıdır. / All rights reserved.</p></body></html>
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KAM: Yer Altına İniş | Türk mitolojisi aksiyon RPG (iOS, Android)</title>
+<meta name="description" content="KAM, Türk mitolojisinden esinlenen iki boyutlu bir aksiyon RPG. Genç kam Tolun, davuluyla yer altına inip kız kardeşi Ay Su'nun kutunu geri getirmeye çalışır. Önce iOS'ta.">
+<link rel="canonical" href="https://erdiesto.github.io/kam/">
+<link rel="alternate" hreflang="tr" href="https://erdiesto.github.io/kam/">
+<link rel="alternate" hreflang="en" href="https://erdiesto.github.io/kam/en/">
+<link rel="alternate" hreflang="x-default" href="https://erdiesto.github.io/kam/en/">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="apple-touch-icon" href="img/icon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="KAM">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:title" content="KAM: Yer Altına İniş">
+<meta property="og:description" content="Türk mitolojisinden esinlenen iki boyutlu aksiyon RPG. Genç kam Tolun, kız kardeşinin kutu için yer altına iniyor.">
+<meta property="og:url" content="https://erdiesto.github.io/kam/">
+<meta property="og:image" content="https://erdiesto.github.io/kam/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Kemik Ovası: dev kaburgaların altında genç kam Tolun">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#127c78">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "KAM: Yer Altına İniş",
+  "alternateName": ["KAM", "KAM: Underworld"],
+  "url": "https://erdiesto.github.io/kam/",
+  "description": "Türk mitolojisinden esinlenen iki boyutlu bir aksiyon RPG. Genç kam Tolun, kız kardeşi Ay Su'nun çalınan kutunu geri getirmek için davuluyla yer altına iner.",
+  "genre": ["Action RPG", "Platformer", "Adventure"],
+  "gamePlatform": ["iOS", "Android"],
+  "operatingSystem": "iOS, Android",
+  "applicationCategory": "Game",
+  "inLanguage": ["tr", "en"],
+  "playMode": "SinglePlayer",
+  "image": ["https://erdiesto.github.io/kam/img/og.jpg", "https://erdiesto.github.io/kam/img/kara-orman.jpg", "https://erdiesto.github.io/kam/img/tamu-irmagi.jpg"],
+  "author": {"@type": "Person", "name": "Erdi Koç"},
+  "keywords": "Türk mitolojisi, kam, şaman, Dede Korkut, Albastı, Deli Dumrul, Tepegöz, aksiyon RPG, yer altı"
+}
+</script>
+<style>
+:root{--bg:#f3f5f2;--fg:#1d2522;--muted:#5d6a65;--accent:#127c78;--card:#fff;--line:#ccd5d1}
+@media (prefers-color-scheme:dark){:root{--bg:#141a18;--fg:#e7ece9;--muted:#9aa8a2;--accent:#4fc4bd;--card:#1c2421;--line:#2c3733}}
+*{box-sizing:border-box}
+body{font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif;margin:0;background:var(--bg);color:var(--fg)}
+.wrap{max-width:860px;margin:0 auto;padding:20px 16px 48px}
+nav{display:flex;flex-wrap:wrap;gap:14px;font-size:.95rem}
+nav a{color:var(--accent)}
+.hero{margin:18px 0 8px}
+.hero img{width:100%;height:auto;border-radius:12px;display:block}
+h1{font-size:clamp(1.6rem,4vw,2.3rem);line-height:1.2;margin:22px 0 6px}
+.lead{font-size:1.1rem;color:var(--fg)}
+.soon{display:inline-block;margin:6px 0 4px;padding:6px 12px;border-radius:999px;background:var(--accent);color:#fff;font-weight:600}
+h2{font-size:1.3rem;margin-top:2.2rem;color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:12px}
+figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+figure img{width:100%;height:auto;display:block}
+figcaption{padding:8px 10px;font-size:.92rem;color:var(--muted)}
+dt{font-weight:700;margin-top:14px}
+dd{margin:4px 0 0}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--muted);font-size:.92rem}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Site"><a href="en/" hreflang="en" lang="en">English</a><a href="destek.html">Destek</a><a href="gizlilik.html">Gizlilik</a><a href="kosullar.html">Koşullar</a></nav>
+
+<header>
+<h1>KAM: Yer Altına İniş</h1>
+<p class="lead">Türk mitolojisinden esinlenen iki boyutlu bir aksiyon RPG. Genç kam Tolun, kız kardeşi Ay Su'nun çalınan kutunu geri getirmek için davuluyla yer altına iner.</p>
+<p><span class="soon">Önce iOS'ta, Aralık 2026</span> Android ondan sonra gelecek.</p>
+<div class="hero"><img src="img/kemik-ovasi.jpg" width="1280" height="720" alt="Kemik Ovası: kafatası yığınları ve dev kaburgaların arasında genç kam Tolun"></div>
+</header>
+
+<main>
+<h2>Hikâye</h2>
+<p>Bir gece baskınında Ay Su'nun kutu, insanı hayatta tutan yaşam gücü, koparılıp yer altına götürülür. Tolun obadaki ateşin başından yola çıkar, bir yarıktan aşağı iner ve katlar boyunca dibe doğru ilerler. Yolu Dede Korkut anlatır.</p>
+
+<h2>Oynanış</h2>
+<p>Tolun davul ve tokmakla dövüşür: vurur, atılır, köklerden sallanır, ırmağı salla geçer, kayadan kayaya atlayarak alt kata iner. Her katta yeni bir yetenek bulur ve katın sonundaki boss o yeteneği sınar. Yol üstünde keçe, su arkı ve yankı taşı bulmacaları çıkar. Oyun dokunmatik ekran için yapıldı; dövüşün hepsi iki başparmakla oynanır.</p>
+
+<h2>Yer altının katları</h2>
+<div class="grid">
+<figure><img src="img/kara-orman.jpg" width="1280" height="720" loading="lazy" alt="Kara Orman: ay ışığında çamlar ve keçe çadır"><figcaption>Kara Orman: Albastı'nın sisi</figcaption></figure>
+<figure><img src="img/tamu-irmagi.jpg" width="1280" height="720" loading="lazy" alt="Tamu Irmağı: söğütler arasında parlayan taş"><figcaption>Tamu Irmağı: Deli Dumrul'un köprüsü</figcaption></figure>
+<figure><img src="img/balbal-esigi.jpg" width="1280" height="720" loading="lazy" alt="Kemik Ovası: sıra sıra balballar"><figcaption>Kemik Ovası: balballar ve ata rüzgârı</figcaption></figure>
+</div>
+
+<h2>Sık sorulanlar</h2>
+<dl>
+<dt>KAM nedir?</dt>
+<dd>KAM, Türk mitolojisinden esinlenen, yandan görünümlü iki boyutlu bir aksiyon RPG'dir. Bağımsız olarak Türkiye'de geliştiriliyor.</dd>
+<dt>Kam kimdir?</dt>
+<dd>Kam, Türk halklarının geleneğinde ruhlar dünyasıyla insanlar arasında aracılık eden kişidir; Batı dillerinde "şaman" diye bilinir. Oyunun kahramanı Tolun genç bir kamdır.</dd>
+<dt>Kut nedir?</dt>
+<dd>Türk inançlarında kut, insanı hayatta ve ayakta tutan yaşam gücüdür. Oyunda Ay Su'nun kutu çalınır ve Tolun onu geri getirmeye çalışır.</dd>
+<dt>Oyundaki yaratıklar nereden geliyor?</dt>
+<dd>Albastı, Deli Dumrul ve Tepegöz Türk halk anlatılarından gelir. Öteki yaratıklar Altay, Saha, Tuva ve Hakas anlatılarından alınmıştır; birkaçı oyunun kendi icadıdır. Oyun içindeki defter hangisinin nereden geldiğini yazar.</dd>
+<dt>Hangi platformlarda çıkacak?</dt>
+<dd>Önce iOS (iPhone), ardından Android. Oyun Türkçe ve İngilizce.</dd>
+<dt>Ücretli mi?</dt>
+<dd>İlk kat ücretsiz ve reklamsız. Bölümün geri kalanı tek bir ödemeyle açılır. Abonelik ve ganimet kutusu yok; güç ve oyun parası satılmaz.</dd>
+</dl>
+
+<h2>Anlatılar üzerine bir not</h2>
+<p>Oyun Altay, Saha, Tuva, Hakas ve Oğuz anlatılarından besleniyor; bu gelenekler bugün de yaşıyor. Oyundaki kurallar oyun için kuruldu, gerçek bir inancı ya da ayini anlatmaz. Yanlış ya da eksik bir şey görürsen <a href="destek.html">bize yaz</a>.</p>
+</main>
+
+<footer>KAM © 2026 Erdi Koç. Tüm hakları saklıdır.</footer>
+</div>
+</body>
+</html>

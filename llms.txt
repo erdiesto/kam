@@ -1,0 +1,16 @@
+# KAM: Underworld (KAM: Yer Altına İniş)
+
+> KAM is a 2D side-scrolling action RPG drawn from Turkic mythology, made by an independent developer in Türkiye. The young kam (shaman) Tolun takes his drum into the underworld to bring back his sister Ay Su's stolen kut, the life-force that keeps a person alive. Coming to iOS first (December 2026), then Android. English and Turkish.
+
+- Floors of Part 1 include the Black Forest (boss: Albastı), the Tamu River (boss: Deli Dumrul) and the Plain of Bones (balbal stones, Tepegöz).
+- Creatures come from Turkic folk tales (Albastı, Deli Dumrul, Tepegöz) and from Altai, Sakha, Tuva and Khakas stories; some are original.
+- Price: the first floor is free with no ads; the rest of the part unlocks with one payment. No subscriptions, no loot boxes, no paid power or currency.
+- The game's rules were made for the game and do not describe a real belief or ritual.
+
+## Pages
+
+- [Game page (English)](https://erdiesto.github.io/kam/en/): story, gameplay, floors, FAQ
+- [Oyun sayfası (Türkçe)](https://erdiesto.github.io/kam/): hikâye, oynanış, katlar, sık sorulanlar
+- [Support](https://erdiesto.github.io/kam/destek.html)
+- [Privacy](https://erdiesto.github.io/kam/gizlilik.html)
+- [Terms](https://erdiesto.github.io/kam/kosullar.html)

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://erdiesto.github.io/kam/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://erdiesto.github.io/kam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://erdiesto.github.io/kam/en/"/>
+  </url>
+  <url>
+    <loc>https://erdiesto.github.io/kam/en/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://erdiesto.github.io/kam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://erdiesto.github.io/kam/en/"/>
+  </url>
+  <url><loc>https://erdiesto.github.io/kam/destek.html</loc></url>
+  <url><loc>https://erdiesto.github.io/kam/gizlilik.html</loc></url>
+  <url><loc>https://erdiesto.github.io/kam/kosullar.html</loc></url>
+</urlset>
